@@ -1,0 +1,62 @@
+<!--/*
+File name : header.ejs
+Student's name : Karandeep
+StudentID : 100734535
+Student's name : Ritu Patel
+StudentID : 100730021
+Student's name : Harmanpreet Kaur
+StudentID : 100734511
+Date : 2020-04-06
+*/-->
+
+<header id="mainHeader">
+  <!-- Main Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="/home"><img src="../../public/Assets/images/mylogo.jpg" alt="mylogo" width="12" height="12"></a>
+      <a class="navbar-brand" href="#">  Shawn Michaels</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+        <% if(title == 'Home') { %>
+          <li id="home" class="nav-item active">
+        <% } else { %>
+          <li id="home" class="nav-item">
+        <% } %>
+        <a class="nav-link" href="/home"><i class="fas fa-igloo"></i> Home</a></li>
+          
+
+         <% if(title == 'Projects') { %>
+          <li id="projects" class="nav-item active">
+          <% } else { %>
+           <li id="projects" class="nav-item">
+         <% } %>
+         <a class="nav-link" href="/projects"><i class="fas fa-map"></i> Projects</a></li>
+          
+         <% if(title == 'Services') { %>
+          <li id="services" class="nav-item active">
+         <% } else { %>
+          <li id="services" class="nav-item">
+        <% } %>
+          <a class="nav-link" href="/services"><i class="fas fa-concierge-bell"></i> Services</a></li>
+          
+
+          <% if(title == 'About') { %>
+          <li id="about" class="nav-item active">
+          <% } else { %>
+          <li id="about" class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/about"><i class="fas fa-info-circle"></i> About Us</a></li>
+
+          <% if(title == 'Contact') { %>
+          <li id="contact" class="nav-item active">
+          <% } else { %>
+          <li id="contact" class="nav-item">
+          <% } %>
+          <a class="nav-link" href="/contact"><i class="fas fa-mobile-alt"></i> Contact Us</a></li>
+       
+        </div>
+    </nav>
+</header>

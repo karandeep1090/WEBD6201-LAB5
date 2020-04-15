@@ -1,0 +1,25 @@
+{
+    "contactList":
+    [
+        {
+            "Name":"Shawn Michael",
+            "ContactNumber":"647-332-9821",
+            "EmailAddress":"shawnmichael23@dcmail.ca"
+        },
+        {
+            "Name":"Ritu Patel",
+            "ContactNumber":"647-223-2198",
+            "EmailAddress":"ritup12@dcmail.ca"
+        },
+        {
+            "Name":"Karandeep",
+            "ContactNumber":"647-447-1090",
+            "EmailAddress":"karandeep2@dcmail.ca"
+        },
+        {
+            "Name":"Harmanpreet Kaur",
+            "ContactNumber":"647-233-1876",
+            "EmailAddress":"harmanpreet34@dcmail.ca"
+        }
+    ]
+}

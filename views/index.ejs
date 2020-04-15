@@ -1,0 +1,48 @@
+<!--/*
+File name : index.ejs
+Student's name : Karandeep
+StudentID : 100734535
+Student's name : Ritu Patel
+StudentID : 100730021
+Student's name : Harmanpreet Kaur
+StudentID : 100734511
+Date : 2020-04-06
+*/-->
+
+<!-- Top Components -->
+<%- include ./partials/head.ejs %>
+<%- include ./partials/header.ejs %>
+
+
+<!-- Content Area -->
+<main class="container" id="mainContent">
+
+<% if (title == 'Home') { %>
+
+ <%- include ./content/home.ejs %>
+
+<% } else if(title == 'Projects') { %>
+
+<%- include ./content/projects.ejs %>
+
+<% } else if(title == 'About') { %>
+
+<%- include ./content/about.ejs %>
+
+<% } else if(title == 'Services') { %>
+
+<%- include ./content/services.ejs %>
+    
+<% } else if(title == 'Contact') { %>
+
+<%- include ./content/contact.ejs %>
+
+<% } %>
+
+</main> 
+
+
+<!-- Bottom components -->
+<%- include ./partials/scripts.ejs %>
+<%- include ./partials/footer.ejs %>
+<%- include ./partials/bottom.ejs %>
