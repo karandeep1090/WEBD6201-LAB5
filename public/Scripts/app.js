@@ -142,16 +142,43 @@ class Contact
             
         });
     }
+    
+    function DisplayContactList()
+    {
+        document.title = "WEBD6201 - Contact List";
+        let deleteButtons = document.getElementsByClassName("btn btn-danger");
+
+        for (const button of deleteButtons) {
+            button.addEventListener("click", (e) =>
+            {
+                if(!confirm("Are You Sure?"))
+                {
+                    e.preventDefault();
+                    /* refresh contact-list*/
+                    window.location.assign("/contact-list");
+                }
+            });
+        }
+
+
+       
+    }
 
     function Start()
     {
         console.log("App Started...");
         let name = window.location.pathname;
         let pageName = name.substring(1);
+
+        console.log(pageName);
+
         switch(pageName)
         {
             case 'contact':
                 DisplayContactContent();
+                break;
+            case 'contact-list':
+                DisplayContactList();
                 break;
         }
     }
