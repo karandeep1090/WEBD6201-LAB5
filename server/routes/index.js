@@ -15,8 +15,9 @@ router.get('/home', (req, res, next) => {
 });
 
 /* GET project page */
-router.get('/projects', (req, res, next) => {
-  controllers.displayProjects(res);
+router.get('/projects', (req, res, next) => 
+{
+  controllers.displayProjects(req, res, next);
 });
 
 /* GET about page */

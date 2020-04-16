@@ -17,7 +17,7 @@ module.exports.displayHome = (req, res, next) =>
     });
 }
 
-module.exports.displayProjects = (res) =>
+module.exports.displayProjects = (req, res, next) =>
 {
   res.render('index',
   {
