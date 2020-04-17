@@ -2,24 +2,24 @@
     "contactList":
     [
         {
-            "Name":"Shawn Michael",
+            "ContactName":"Shawn Michael",
             "ContactNumber":"647-332-9821",
-            "EmailAddress":"shawnmichael23@dcmail.ca"
+            "ContactEmail":"shawnmichael23@dcmail.ca"
         },
         {
-            "Name":"Ritu Patel",
-            "ContactNumber":"647-223-2198",
-            "EmailAddress":"ritup12@dcmail.ca"
+            "ContactName":"Ritu Patel",
+            "ContactNumber":"666-555-4123",
+            "ContactEmail":"ritupatel1@gmail.com"
         },
         {
-            "Name":"Karandeep",
-            "ContactNumber":"647-447-1090",
-            "EmailAddress":"karandeep2@dcmail.ca"
+            "ContactName":"Karandeep",
+            "ContactNumber":"666-555-4444",
+            "ContactEmail":"karandeep1@gmail.com"
         },
         {
-            "Name":"Harmanpreet Kaur",
-            "ContactNumber":"647-233-1876",
-            "EmailAddress":"harmanpreet34@dcmail.ca"
+            "ContactName":"Harmanpreet Kaur",
+            "ContactNumber":"666-555-4321",
+            "ContactEmail":"harman1@gmail.com"
         }
     ]
 }
