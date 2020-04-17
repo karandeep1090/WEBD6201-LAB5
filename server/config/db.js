@@ -12,5 +12,5 @@ Date : 2020-04-16
 
 module.exports = 
 {
-    "URI":"mongodb+srv://karandeep:Newdata01@cluster0-pkrgd.azure.mongodb.net/test?retryWrites=true&w=majority"
+    "URI":"mongodb://localhost/mydb"
 }
